@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>Menu slider with Modal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/men/72.jpg" alt="user" srcset="">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+
+        <h1>My Landing Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ipsam.</p>
+
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+        <h2>This is some title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est minus necessitatibus pariatur similique
+            dolores. Quia illo impedit sed voluptatibus velit provident quod, architecto deserunt magni eum nisi, sint
+            mollitia unde!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae excepturi debitis sunt eaque nihil
+            voluptatum, quos commodi. Aliquam, corporis debitis!</p>
+
+        <h2>How do you like it</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptatem dolor possimus reprehenderit soluta
+            facilis velit rem hic, esse est impedit. Voluptates soluta excepturi ad ipsum, unde commodi nemo in.</p>
+
+        <h2>Services</h2>
+        <ul>
+            <li>Month Access</li>
+            <li>30 day money back</li>
+            <li>Guarantee</li>
+        </ul>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nesciunt quibusdam ipsum nobis facilis sed
+            magni ratione voluptatem dolorum atque qui delectus dolore maiores, reprehenderit voluptas voluptatum,
+            ipsam, nostrum at!</p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register with us to get offers, support and more</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name" class="form-input">
+                    </div>
+
+                    <div>
+                        <label for="name">Email</label>
+                        <input type="text" id="email" placeholder="Enter Email" class="form-input">
+                    </div>
+
+                    <div>
+                        <label for="name">Password</label>
+                        <input type="text" id="password" placeholder="Enter Password" class="form-input">
+                    </div>
+
+                    <div>
+                        <label for="name">Confirm Password</label>
+                        <input type="text" id="password2" placeholder="Confirm Password" class="form-input">
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
